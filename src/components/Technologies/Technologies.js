@@ -4,52 +4,48 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
-    <SectionDivider divider />
+  <Section id='tech'>
+    <SectionDivider/>
+    <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range of Technologies in the web development world.
+      From Back-end to Front-end
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+        <DiReact size="3rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
+            Experience with <br/>
             React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
+        <DiFirebase size="3rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Experience with <br/>
+            Node.js and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
+        <DiZend size="3rem"/>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Experience using <br/>
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
   </Section>
 );
 
